@@ -40,8 +40,7 @@
     "build": "react-scripts build && npm run sentry:sourcemaps",
     "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!ui-core)/\" --env=jsdom",
     "eject": "react-scripts eject",
-    "test-with-coverage": "npm run test -- --coverage .",
-    "sentry:sourcemaps": "sentry-cli sourcemaps inject --org ashutosh-p9 --project tailor-my-resume-client ./build && sentry-cli sourcemaps upload --org ashutosh-p9 --project tailor-my-resume-client ./build"
+    "test-with-coverage": "npm run test -- --coverage ."
   },
   "eslintConfig": {
     "extends": [
